@@ -1,0 +1,17 @@
+.topMain-Area {
+  display: flex;
+  padding: 0 1.5rem;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.topMain {
+  width: 700px;
+}
+
+.topMain-text {
+  font-size: 65px;
+  margin: 180px 0px;
+  letter-spacing: 0.15rem;
+}
