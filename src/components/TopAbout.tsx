@@ -5,10 +5,16 @@ import topAbout from "../images/topAbout-icon.jpg";
 const TopAbout = () => {
   return (
     <>
-      <div className="TopAbout">
-        <div className="title">{headerData[1].listName}</div>
-        <img className="topAbout-icon" src={topAbout} alt="" />
-        <div className="TopAbout-txt"></div>
+      <div className="title">
+        {headerData[1].listName}
+        <div className="area">
+          <img className="topAbout-icon" src={topAbout} alt="" />
+          <div className="topAbout-txt">
+            {
+              "1997年生まれ、兵庫県出身の24歳。 \n 歩くことが好きです。 \n 卒業研究で、Octaveを触ってプログラミングが好きになりました。"
+            }
+          </div>
+        </div>
       </div>
     </>
   );
