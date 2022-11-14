@@ -3,7 +3,7 @@ import "../styles/topMain.css";
 
 const TopMain = () => {
   return (
-    <div className="topMain-Area">
+    <div className="area">
       <h1 className="topMain-text">{`Hironori's\nPortofolio`}</h1>
       <img className="topMain" src={topMain} alt="" />
     </div>
