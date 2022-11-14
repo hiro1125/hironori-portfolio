@@ -2,4 +2,15 @@
   border-radius: 50%;
   width: 274px;
   height: 262px;
+  margin-left: 50px;
+  margin-right: 85px;
+}
+
+.topAbout-txt {
+  font-size: 20px;
+  max-width: 560px;
+  padding: 60px;
+  background-color: #bde3ff;
+  white-space: pre-line;
+  text-align: left;
 }
