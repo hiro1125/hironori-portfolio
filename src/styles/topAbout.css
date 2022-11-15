@@ -1,16 +1,31 @@
 .topAbout-icon {
-  border-radius: 50%;
   width: 274px;
   height: 262px;
   margin-left: 50px;
   margin-right: 85px;
+  border-radius: 50%;
 }
 
 .topAbout-txt {
-  font-size: 20px;
   max-width: 560px;
   padding: 60px;
   background-color: #bde3ff;
-  white-space: pre-line;
+  font-size: 20px;
   text-align: left;
+  white-space: pre-line;
+}
+
+.topAbout-viewMore {
+  text-align: right;
+}
+
+.link {
+  display: inline-block;
+  font-size: 24px;
+  padding: 10px 60px;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: white;
 }
