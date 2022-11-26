@@ -1,6 +1,6 @@
 import { headerData } from "../contents";
+import { topAbout } from "../images";
 import "../styles/topAbout.css";
-import topAbout from "../images/topAbout-icon.jpg";
 
 const TopAbout = () => {
   return (
