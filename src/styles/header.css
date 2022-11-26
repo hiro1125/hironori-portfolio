@@ -16,8 +16,7 @@ ul {
   cursor: pointer;
 }
 
-li {
-  list-style: none;
+.headerItem {
   margin-left: 40px;
 }
 
