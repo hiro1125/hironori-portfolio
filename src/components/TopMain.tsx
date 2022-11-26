@@ -1,4 +1,4 @@
-import topMain from "../images/topMain.jpg";
+import { topMain } from "../images";
 import "../styles/topMain.css";
 
 const TopMain = () => {
