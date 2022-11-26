@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import "../styles/header.css";
-import { headerData } from "../contents";
+import '../styles/header.css';
+import { headerData } from '../contents';
 
 const Header = () => {
   return (
@@ -8,8 +8,8 @@ const Header = () => {
       <ul>
         {headerData.map((item, key) => {
           return (
-            <li key={key}>
-              <a href="">{item.listName}</a>
+            <li className='headerItem' key={key}>
+              <a href=''>{item.listName}</a>
             </li>
           );
         })}
