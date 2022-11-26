@@ -7,8 +7,12 @@ a {
   text-decoration: none;
 }
 
-img {
-  max-width: 100%;
+li {
+  list-style: none;
+}
+
+p {
+  margin: 0px;
 }
 
 .title {
@@ -19,8 +23,8 @@ img {
 }
 
 body {
-  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3",
-    "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-family: '游ゴシック', YuGothic, 'ヒラギノ角ゴ ProN W3',
+    'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
   line-height: 1.9;
 }
 
