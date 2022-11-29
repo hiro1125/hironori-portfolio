@@ -1,19 +1,14 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import '../styles/header.css';
-import { headerData } from '../contents';
-
+import { NavLink } from 'react-router-dom';
+import { headerData, navPathData } from '../contents';
 const Header = () => {
   return (
     <header>
-      <ul>
-        {headerData.map((item, key) => {
-          return (
-            <li className='headerItem' key={key}>
-              <a href=''>{item.listName}</a>
-            </li>
-          );
-        })}
-      </ul>
+      <NavLink to={navPathData.home}>{headerData[0].listName}</NavLink>
+      <NavLink to={navPathData.about}>{headerData[1].listName}</NavLink>
+      <NavLink to={navPathData.skill}>{headerData[2].listName}</NavLink>
+      <NavLink to={navPathData.product}>{headerData[3].listName}</NavLink>
     </header>
   );
 };
