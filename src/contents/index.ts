@@ -1,6 +1,21 @@
+const defaultPath = `/hironori-Portofolio`;
+
+export const navPathData = {
+  /** ホーム画面 */
+  home: defaultPath,
+  /** About画面 */
+  about: `${defaultPath}/About`,
+  /** Skill画面 */
+  skill: `${defaultPath}/Skill`,
+  /** Product画面 */
+  product: `${defaultPath}/Product`,
+  /** Contact画面 */
+  contact: `${defaultPath}/Contact`,
+};
+
 export const headerData = [
   {
-    listName: 'home',
+    listName: 'Home',
   },
 
   {
@@ -50,4 +65,16 @@ export const SkillData = [
     skillIcon: require('../images/expo-icon.png'),
     skillName: 'expo',
   },
+];
+
+export const ProductData = [
+  {
+    ProductImg: require('../images/Me-National-Exam-Preparation-App.png'),
+    ProductName: 'Me-National-Exam-Preparation-App',
+  },
+
+  // {
+  //   ProductImg: require(),
+  //   ProductName: 'Me-National-Exam-Preparation-App',
+  // },
 ];
