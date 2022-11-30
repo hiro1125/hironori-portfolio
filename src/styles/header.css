@@ -1,11 +1,11 @@
 header {
+  max-width: 1080px;
   display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  height: 90px;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80px;
+  margin: 0 auto;
+  padding: 0 4%;
 }
 
 ul {
@@ -16,10 +16,21 @@ ul {
   cursor: pointer;
 }
 
-.headerItem {
+li {
+  list-style: none;
   margin-left: 40px;
 }
 
-a:hover {
+.navLink:hover {
   color: #1997f1;
+}
+
+.navLink {
+  position: relative;
+  display: inline-block;
+  margin: 0 1.3rem;
+  letter-spacing: 0.12rem;
+  line-height: 50px;
+  cursor: pointer;
+  font-family: 'cursive';
 }
