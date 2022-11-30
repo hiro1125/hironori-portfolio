@@ -13,7 +13,7 @@ export const navPathData = {
   contact: `${defaultPath}/Contact`,
 };
 
-export const headerData = [
+export const navData = [
   {
     listName: 'Home',
   },
@@ -32,6 +32,10 @@ export const headerData = [
 
   {
     listName: 'Contact',
+  },
+
+  {
+    listName: 'Career',
   },
 ];
 

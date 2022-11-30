@@ -1,12 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { headerData, ProductData } from '../contents';
+import { navData, ProductData } from '../contents';
 import '../styles/topProduct.css';
 
 const TopProduct = () => {
   return (
     <>
       <div className='title'>
-        {headerData[3].listName}
+        {navData[3].listName}
         <div className='area'>
           <div className='area skillArea'>
             {ProductData.map((item, key) => {

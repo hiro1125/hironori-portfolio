@@ -1,12 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { headerData, SkillData } from '../contents';
+import { navData, SkillData } from '../contents';
 import '../styles/topSkill.css';
 
 const TopSkill = () => {
   return (
     <>
       <div className='title'>
-        {headerData[2].listName}
+        {navData[2].listName}
         <div className='area skillArea'>
           {SkillData.map((item, key) => {
             return (
