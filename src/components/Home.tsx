@@ -1,3 +1,4 @@
+import Footer from './Footer';
 import Header from './Header';
 import TopAbout from './TopAbout';
 import TopContact from './TopContact';
@@ -14,6 +15,7 @@ function Home() {
       <TopSkill />
       <TopProduct />
       <TopContact />
+      <Footer />
     </>
   );
 }
