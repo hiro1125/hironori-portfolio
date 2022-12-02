@@ -1,11 +1,15 @@
 header {
-  max-width: 1080px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  max-width: 1080px;
   height: 80px;
   margin: 0 auto;
   padding: 0 4%;
+}
+
+.menu {
+  position: fixed;
 }
 
 ul {
@@ -26,11 +30,11 @@ li {
 }
 
 .navLink {
-  position: relative;
   display: inline-block;
+  position: relative;
   margin: 0 1.3rem;
-  letter-spacing: 0.12rem;
   line-height: 50px;
+  letter-spacing: 0.12rem;
   cursor: pointer;
   font-family: 'cursive';
 }
