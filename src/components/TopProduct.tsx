@@ -3,6 +3,9 @@ import { navData, ProductData } from '../contents';
 import '../styles/topProduct.css';
 
 const TopProduct = () => {
+  const redirectToMeApp = () => {
+    window.open('https://hiro1125.github.io/Me-National-Exam-Preparation-App/');
+  };
   return (
     <>
       <div className='title'>
@@ -16,6 +19,7 @@ const TopProduct = () => {
                     className='ProductImg'
                     src={item.ProductImg}
                     alt={item.ProductName}
+                    onClick={redirectToMeApp}
                   />
                   <p className='ProductName'>{item.ProductName}</p>
                 </li>
