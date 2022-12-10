@@ -1,23 +1,26 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import '../styles/header.css';
-import { NavLink } from 'react-router-dom';
-import { navData, navPathData } from '../contents';
+import { Link as Scroll } from 'react-scroll';
+import { navData } from '../contents';
+
 const Header = () => {
   return (
     <header>
       <div className='menu'>
-        <NavLink className='navLink' to={navPathData.home}>
-          {navData[0].listName}
-        </NavLink>
-        <NavLink className='navLink' to={navPathData.about}>
-          {navData[1].listName}
-        </NavLink>
-        <NavLink className='navLink' to={navPathData.product}>
-          {navData[3].listName}
-        </NavLink>
-        <NavLink className='navLink' to={navPathData.product}>
-          {navData[4].listName}
-        </NavLink>
+        <nav>
+          <Scroll to='home' smooth={true} duration={500} offset={-50}>
+            {navData[0].listName}
+          </Scroll>
+          <Scroll to='topAbout' smooth={true} duration={500} offset={-50}>
+            {navData[1].listName}
+          </Scroll>
+          <Scroll to='topProduct' smooth={true} duration={500} offset={-50}>
+            {navData[3].listName}
+          </Scroll>
+          <Scroll to='topContact' smooth={true} duration={500} offset={-50}>
+            {navData[4].listName}
+          </Scroll>
+        </nav>
       </div>
     </header>
   );

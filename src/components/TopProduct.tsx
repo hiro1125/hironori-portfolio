@@ -9,7 +9,7 @@ const TopProduct = () => {
   return (
     <>
       <div className='title'>
-        {navData[3].listName}
+        <section id='topProduct'>{navData[3].listName}</section>
         <div className='area'>
           <div className='area skillArea'>
             {ProductData.map((item, key) => {

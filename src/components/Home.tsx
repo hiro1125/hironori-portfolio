@@ -9,6 +9,7 @@ import TopSkill from './TopSkill';
 function Home() {
   return (
     <>
+      <section id='home'></section>
       <Header />
       <TopMain />
       <TopAbout />
