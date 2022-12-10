@@ -6,7 +6,7 @@ const TopSkill = () => {
   return (
     <>
       <div className='title'>
-        {navData[2].listName}
+        <section id='topSkill'>{navData[2].listName}</section>
         <div className='area skillArea'>
           {SkillData.map((item, key) => {
             return (
