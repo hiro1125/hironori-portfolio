@@ -25,11 +25,11 @@ li {
   margin-left: 40px;
 }
 
-.navLink:hover {
+.scroll:hover {
   color: #1997f1;
 }
 
-.navLink {
+.scroll {
   display: inline-block;
   position: relative;
   margin: 0 1.3rem;
