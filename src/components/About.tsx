@@ -1,12 +1,10 @@
 import { navData } from '../contents';
 import { topAbout } from '../images';
-import Header from './Header';
 import '../styles/about.css';
 
 function About() {
   return (
     <>
-      <Header />
       <div className='title'>
         {navData[1].listName}
         <div className='area'>
