@@ -8,16 +8,49 @@ const Header = () => {
     <header>
       <div className='menu'>
         <nav>
-          <Scroll to='home' smooth={true} duration={500} offset={-50}>
+          <Scroll
+            className='scroll'
+            to='home'
+            smooth={true}
+            duration={500}
+            offset={-50}
+          >
             {navData[0].listName}
           </Scroll>
-          <Scroll to='topAbout' smooth={true} duration={500} offset={-50}>
+          <Scroll
+            className='scroll'
+            to='topAbout'
+            smooth={true}
+            duration={500}
+            offset={-50}
+          >
             {navData[1].listName}
           </Scroll>
-          <Scroll to='topProduct' smooth={true} duration={500} offset={-50}>
+          <Scroll
+            className='scroll'
+            to='topSkill'
+            smooth={true}
+            duration={500}
+            offset={-50}
+          >
+            {navData[2].listName}
+          </Scroll>
+          <Scroll
+            className='scroll'
+            to='topProduct'
+            smooth={true}
+            duration={500}
+            offset={-50}
+          >
             {navData[3].listName}
           </Scroll>
-          <Scroll to='topContact' smooth={true} duration={500} offset={-50}>
+          <Scroll
+            className='scroll'
+            to='topContact'
+            smooth={true}
+            duration={500}
+            offset={-50}
+          >
             {navData[4].listName}
           </Scroll>
         </nav>
