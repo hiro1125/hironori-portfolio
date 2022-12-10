@@ -1,4 +1,11 @@
 header {
+  z-index: 200;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.navBox {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -10,6 +17,12 @@ header {
 
 .menu {
   position: fixed;
+}
+
+.gNav {
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 ul {
@@ -32,6 +45,7 @@ li {
 .scroll {
   display: inline-block;
   position: relative;
+  z-index: 99;
   margin: 0 1.3rem;
   line-height: 50px;
   letter-spacing: 0.12rem;

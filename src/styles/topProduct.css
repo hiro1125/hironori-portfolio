@@ -1,7 +1,15 @@
 .ProductImg {
+  position: relative;
   width: 340px;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 1;
 }
 
 .ProductName {
   font-size: 20px;
+}
+
+.ProductImg:hover {
+  opacity: 0.8;
 }
