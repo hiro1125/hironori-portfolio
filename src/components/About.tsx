@@ -1,4 +1,4 @@
-import { navData } from '../contents';
+import { CareerData, navData } from '../contents';
 import { topAbout } from '../images';
 import '../styles/about.css';
 
@@ -21,7 +21,20 @@ function About() {
       </div>
       <div className='title'>
         {navData[5].listName}
-        <div className='area'></div>
+        <div className='area'>
+          {CareerData.map((item, key) => {
+            return (
+              <dl className='careerArea' key={key}>
+                <dt className='careerLeft'>{item.lineDate}</dt>
+                <dd className='careerRight'>
+                  {item.titleData}
+                  <br />
+                  {item.textData}
+                </dd>
+              </dl>
+            );
+          })}
+        </div>
       </div>
     </>
   );
