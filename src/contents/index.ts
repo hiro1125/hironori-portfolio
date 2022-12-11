@@ -16,22 +16,27 @@ export const navPathData = {
 export const navData = [
   {
     listName: 'Home',
+    pathName: 'home',
   },
 
   {
     listName: 'About',
+    pathName: 'topAbout',
   },
 
   {
     listName: 'Skill',
+    pathName: 'topSkill',
   },
 
   {
     listName: 'Product',
+    pathName: 'topProduct',
   },
 
   {
     listName: 'Contact',
+    pathName: 'topContact',
   },
 
   {
@@ -81,4 +86,25 @@ export const ProductData = [
   //   ProductImg: require(),
   //   ProductName: 'Me-National-Exam-Preparation-App',
   // },
+];
+
+export const CareerData = [
+  {
+    lineDate: '2016年',
+    titleData: '高等学校卒業、4年制医療大学に入学',
+    textData:
+      'ショッピングセンターで臨床工学技士の業務体験イベントを通じて、とてもやりがいのある仕事と感じ、この職業を目指すと決める。',
+  },
+  {
+    lineDate: '2021年',
+    titleData: '臨床工学技士国家資格を取得、病院に勤務',
+    textData:
+      '臨床工学技士として一次二次救急病院で主に透析業務・内視鏡業務の仕事を行う。',
+  },
+  {
+    lineDate: '2022年',
+    titleData: '臨床工学技士として働きながらプログラミングを独学',
+    textData:
+      '病院勤務を続けつつ、プログラミングの勉強を始める。現役エンジニアの友人にアドバイスを頂きながら日々学び続ける。',
+  },
 ];
