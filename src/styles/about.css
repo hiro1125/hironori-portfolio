@@ -43,3 +43,15 @@
 .careerHeadline {
   font-size: 16px;
 }
+
+.backHome {
+  font-size: 15px;
+  margin: 40px 0px;
+  line-height: 1.75rem;
+}
+
+.backHome :hover {
+  color: #60a5fa;
+  font-family: Kaushan;
+  text-decoration: inherit;
+}
