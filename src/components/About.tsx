@@ -1,6 +1,7 @@
 import { CareerData, navData } from '../contents';
 import { topAbout } from '../images';
 import '../styles/about.css';
+import Footer from './Footer';
 
 function About() {
   return (
@@ -21,13 +22,13 @@ function About() {
       </div>
       <div className='title'>
         {navData[5].listName}
-        <div className='area'>
+        <div className='area careerArea'>
           {CareerData.map((item, key) => {
             return (
-              <dl className='careerArea' key={key}>
+              <dl className='career' key={key}>
                 <dt className='careerLeft'>{item.lineDate}</dt>
                 <dd className='careerRight'>
-                  {item.titleData}
+                  <span className='careerHeadline'>{item.titleData}</span>
                   <br />
                   {item.textData}
                 </dd>
@@ -36,6 +37,7 @@ function About() {
           })}
         </div>
       </div>
+      <Footer />
     </>
   );
 }
