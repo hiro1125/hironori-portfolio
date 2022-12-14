@@ -5,3 +5,16 @@ footer {
   font-size: 12px;
   text-align: center;
 }
+
+.githubIcon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.footerArea {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
