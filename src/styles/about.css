@@ -1,3 +1,10 @@
+.headerLogo {
+  display: flex;
+  position: fixed;
+  margin: 0 16px;
+  cursor: pointer;
+}
+
 .paragraph {
   padding: 10px 0;
 }
