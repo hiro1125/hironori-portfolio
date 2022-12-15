@@ -1,11 +1,23 @@
-import { CareerData, navData } from '../contents';
-import { topAbout } from '../images';
+import { CareerData, navData, navPathData } from '../contents';
+import { headerLogo, topAbout } from '../images';
 import '../styles/about.css';
 import Footer from './Footer';
+import { animateScroll as scroll } from 'react-scroll';
+
+const scrollToTop = () => {
+  scroll.scrollToTop();
+};
 
 function About() {
   return (
     <>
+      <img
+        className='headerLogo'
+        src={headerLogo}
+        alt='ロゴ画像'
+        onClick={scrollToTop}
+      />
+      <section id='top'></section>
       <div className='title'>
         {navData[1].listName}
         <div className='area'>
@@ -36,6 +48,9 @@ function About() {
             );
           })}
         </div>
+      </div>
+      <div className='backHome'>
+        <a href={navPathData.home}>← back home</a>
       </div>
       <Footer />
     </>
