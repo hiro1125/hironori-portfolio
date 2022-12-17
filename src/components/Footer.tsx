@@ -1,7 +1,7 @@
 import '../styles/footer.css';
 import { githubIcon } from '../images';
 
-function Footer() {
+const Footer = () => {
   const pushIcon = () => {
     window.open('https://github.com/hiro1125');
   };
@@ -18,6 +18,6 @@ function Footer() {
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;

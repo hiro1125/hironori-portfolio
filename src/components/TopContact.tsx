@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { navData } from '../contents';
 import '../styles/topContact.css';
 
-function TopContact() {
+const TopContact = () => {
   return (
     <>
       <div className='title'>
@@ -18,6 +18,6 @@ function TopContact() {
       </div>
     </>
   );
-}
+};
 
 export default TopContact;

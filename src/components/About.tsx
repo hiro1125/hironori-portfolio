@@ -8,7 +8,7 @@ const scrollToTop = () => {
   scroll.scrollToTop();
 };
 
-function About() {
+const About = () => {
   return (
     <>
       <img
@@ -33,7 +33,7 @@ function About() {
         </div>
       </div>
       <div className='title'>
-        {navData[5].listName}
+        Career
         <div className='area careerArea'>
           {CareerData.map((item, key) => {
             return (
@@ -55,6 +55,6 @@ function About() {
       <Footer />
     </>
   );
-}
+};
 
 export default About;

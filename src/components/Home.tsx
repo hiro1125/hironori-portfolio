@@ -6,7 +6,7 @@ import TopMain from './TopMain';
 import TopProduct from './TopProduct';
 import TopSkill from './TopSkill';
 
-function Home() {
+const Home = () => {
   return (
     <>
       <section id='home'></section>
@@ -19,6 +19,6 @@ function Home() {
       <Footer />
     </>
   );
-}
+};
 
 export default Home;
