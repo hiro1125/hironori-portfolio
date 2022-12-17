@@ -38,10 +38,6 @@ export const navData = [
     listName: 'Contact',
     pathName: 'topContact',
   },
-
-  {
-    listName: 'Career',
-  },
 ];
 
 export const SkillData = [
