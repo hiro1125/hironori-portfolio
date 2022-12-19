@@ -4,7 +4,7 @@ import '../styles/responsive.css';
 
 const TopMain = () => {
   return (
-    <div className='area'>
+    <div className='area topMainArea'>
       <h1 className='topMain-text'>{`Hironori's\nPortofolio`}</h1>
       <img className='topMain' src={topMain} alt='' />
     </div>
