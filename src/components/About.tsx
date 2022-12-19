@@ -1,5 +1,5 @@
 import { CareerData, navData, navPathData } from '../contents';
-import { headerLogo, topAbout } from '../images';
+import { about, headerLogo } from '../images';
 import '../styles/about.css';
 import Footer from './Footer';
 import { animateScroll as scroll } from 'react-scroll';
@@ -21,7 +21,7 @@ const About = () => {
       <div className='title'>
         {navData[1].listName}
         <div className='area'>
-          <img className='topAbout-icon' src={topAbout} alt='' />
+          <img className='about-icon' src={about} alt='' />
           <div className='topAbout-txt'>
             <p className='paragraph'>
               2021年から病院の仕事をしながらプログラミングの勉強を独学を始めました。
