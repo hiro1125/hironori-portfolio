@@ -5,6 +5,7 @@ import TopContact from './TopContact';
 import TopMain from './TopMain';
 import TopProduct from './TopProduct';
 import TopSkill from './TopSkill';
+import '../styles/responsive.css';
 
 const Home = () => {
   return (
