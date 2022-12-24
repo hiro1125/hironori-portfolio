@@ -5,21 +5,23 @@ import '../styles/topSkill.css';
 const TopSkill = () => {
   return (
     <>
-      <div className='title'>
-        <section id='topSkill'>{navData[2].listName}</section>
-        <div className='area skillArea'>
-          {SkillData.map((item, key) => {
-            return (
-              <li className='skillItem' key={key}>
-                <img
-                  className='iconImg'
-                  src={item.skillIcon}
-                  alt={item.skillName}
-                />
-                <p className='skillName'>{item.skillName}</p>
-              </li>
-            );
-          })}
+      <div className='area skillArea'>
+        <div className='title topSkillTitle'>
+          <section id='topSkill'>{navData[2].listName}</section>
+          <div className='topSkillMain'>
+            {SkillData.map((item, key) => {
+              return (
+                <li className='skillItem' key={key}>
+                  <img
+                    className='iconImg'
+                    src={item.skillIcon}
+                    alt={item.skillName}
+                  />
+                  <p className='skillName'>{item.skillName}</p>
+                </li>
+              );
+            })}
+          </div>
         </div>
       </div>
     </>
