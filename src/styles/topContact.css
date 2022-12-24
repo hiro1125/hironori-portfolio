@@ -1,4 +1,9 @@
+.topContactArea {
+  justify-content: center;
+}
+
 .contact-txt {
+  margin-top: 45px;
   font-size: 20px;
 }
 

@@ -6,15 +6,16 @@ import '../styles/topContact.css';
 const TopContact = () => {
   return (
     <>
-      <div className='title'>
-        <section id='topContact'>{navData[4].listName}</section>
-        <div className='area'></div>
-        <p className='contact-txt'>
-          ご連絡は、下記お問い合わせフォームよりお願いいたします。
-        </p>
-        <NavLink className='navLink' target='_blank' to={'/'}>
-          <button className='contact'>お問い合わせはこちら</button>
-        </NavLink>
+      <div className='area topContactArea'>
+        <div className='title'>
+          <section id='topContact'>{navData[4].listName}</section>
+          <p className='contact-txt'>
+            ご連絡は、下記お問い合わせフォームよりお願いいたします。
+          </p>
+          <NavLink className='navLink' target='_blank' to={'/'}>
+            <button className='contact'>お問い合わせはこちら</button>
+          </NavLink>
+        </div>
       </div>
     </>
   );
