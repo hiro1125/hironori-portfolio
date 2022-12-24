@@ -11,16 +11,16 @@ const scrollToTop = () => {
 const About = () => {
   return (
     <>
-      <img
-        className='headerLogo'
-        src={headerLogo}
-        alt='ロゴ画像'
-        onClick={scrollToTop}
-      />
-      <section id='top'></section>
-      <div className='title'>
-        {navData[1].listName}
-        <div className='area'>
+      <div className='area'>
+        <section id='top'></section>
+        <img
+          className='headerLogo'
+          src={headerLogo}
+          alt='ロゴ画像'
+          onClick={scrollToTop}
+        />
+        <div className='title'>
+          {navData[1].listName}
           <img className='about-icon' src={about} alt='' />
           <div className='topAbout-txt'>
             <p className='paragraph'>
