@@ -1,3 +1,11 @@
+.topProductArea {
+  justify-content: center;
+}
+
+.topProductList {
+  margin: 0;
+}
+
 .ProductImg {
   position: relative;
   width: 340px;

@@ -8,24 +8,22 @@ const TopProduct = () => {
   };
   return (
     <>
-      <div className='title'>
-        <section id='topProduct'>{navData[3].listName}</section>
-        <div className='area'>
-          <div className='area skillArea'>
-            {ProductData.map((item, key) => {
-              return (
-                <li className='skillItem' key={key}>
-                  <img
-                    className='ProductImg'
-                    src={item.ProductImg}
-                    alt={item.ProductName}
-                    onClick={redirectToMeApp}
-                  />
-                  <p className='ProductName'>{item.ProductName}</p>
-                </li>
-              );
-            })}
-          </div>
+      <div className='area topProductArea'>
+        <div className='title'>
+          <section id='topProduct'>{navData[3].listName}</section>
+          {ProductData.map((item, key) => {
+            return (
+              <li className='topProductList' key={key}>
+                <img
+                  className='ProductImg'
+                  src={item.ProductImg}
+                  alt={item.ProductName}
+                  onClick={redirectToMeApp}
+                />
+                <p className='ProductName'>{item.ProductName}</p>
+              </li>
+            );
+          })}
         </div>
       </div>
     </>
