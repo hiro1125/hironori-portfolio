@@ -1,58 +1,20 @@
 .headerLogo {
   display: flex;
-  position: fixed;
   margin: 0 16px;
   cursor: pointer;
+}
+
+.AboutMain {
+  display: flex;
+  justify-content: space-between;
 }
 
 .paragraph {
   padding: 25px 0;
 }
 
-.careerArea {
-  display: block;
-}
-
-.career {
-  display: flex;
-  width: 1000px;
-  margin: 0 auto;
-}
-
-.careerLeft {
-  width: 20%;
-  padding-top: 32px;
-  padding-right: 64px;
-  border-right: 3px solid #a9a9a9;
-  font-size: 18px;
-  text-align: right;
-}
-
-.careerRight {
-  width: 80%;
-  padding-top: 32px;
-  padding-left: 64px;
-  font-size: 15px;
-  text-align: left;
-}
-
-.careerRight :before {
-  display: inline-block;
-  position: absolute;
-  left: 684px;
-  width: 15px;
-  border-radius: 50%;
-  height: 15px;
-  background: #92bde6;
-  content: '';
-}
-
-.careerHeadline {
-  font-size: 16px;
-}
-
 .backHome {
-  font-size: 15px;
+  font-size: 30px;
   margin: 40px 0px;
   line-height: 1.75rem;
 }
@@ -67,4 +29,16 @@
   width: 470px;
   height: auto;
   margin-right: 32px;
+}
+
+.timelineDate {
+  color: black;
+}
+
+.careerTitle {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 40px;
 }
