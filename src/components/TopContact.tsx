@@ -13,7 +13,12 @@ const TopContact = () => {
             ご連絡は、下記お問い合わせフォームよりお願いいたします。
           </p>
           <NavLink className='navLink' target='_blank' to={'/'}>
-            <button className='contact'>お問い合わせはこちら</button>
+            <button className='contactButton'>
+              お問い合わせはこちら
+              <div className='arrow-wrapper'>
+                <div className='arrow'></div>
+              </div>
+            </button>
           </NavLink>
         </div>
       </div>
