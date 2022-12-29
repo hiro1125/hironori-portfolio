@@ -8,14 +8,27 @@ import {
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { FaHospital } from 'react-icons/fa';
+import { FaAngleDoubleUp, FaHospital } from 'react-icons/fa';
 import TopContact from './TopContact';
-
-// const scrollToTop = () => {
-//   scroll.scrollToTop();
-// };
+import { useEffect, useState } from 'react';
 
 const About = () => {
+  const [topScrollButton, setTopScrollButton] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        setTopScrollButton(true);
+      } else {
+        setTopScrollButton(false);
+      }
+    });
+  }, []);
+
+  const ScrollTop = () => {
+    window.scroll({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <>
       <img className='headerLogo' src={headerLogo} alt='ロゴ画像' />
@@ -35,6 +48,11 @@ const About = () => {
           </div>
         </div>
       </div>
+      {topScrollButton && (
+        <button className='scrollButton' onClick={ScrollTop}>
+          <FaAngleDoubleUp className='topButton' />
+        </button>
+      )}
       <div className='area careerArea'>
         <div className='title careerTitle'>
           <h1>Career</h1>
