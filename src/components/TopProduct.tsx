@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { navData, ProductData } from '../contents';
+import { navData, productData } from '../contents';
 import '../styles/topProduct.css';
 
 const TopProduct = () => {
@@ -11,7 +11,7 @@ const TopProduct = () => {
       <div className='area topProductArea'>
         <div className='title'>
           <section id='topProduct'>{navData[3].listName}</section>
-          {ProductData.map((item, key) => {
+          {productData.map((item, key) => {
             return (
               <li className='topProductList' key={key}>
                 <img

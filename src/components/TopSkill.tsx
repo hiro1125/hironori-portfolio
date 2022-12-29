@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { navData, SkillData } from '../contents';
+import { navData, skillData } from '../contents';
 import '../styles/topSkill.css';
 
 const TopSkill = () => {
@@ -9,7 +9,7 @@ const TopSkill = () => {
         <div className='title topSkillTitle'>
           <section id='topSkill'>{navData[2].listName}</section>
           <div className='topSkillMain'>
-            {SkillData.map((item, key) => {
+            {skillData.map((item, key) => {
               return (
                 <li className='skillItem' key={key}>
                   <img

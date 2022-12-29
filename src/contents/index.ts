@@ -40,7 +40,7 @@ export const navData = [
   },
 ];
 
-export const SkillData = [
+export const skillData = [
   {
     skillIcon: require('../images/html-5.png'),
     skillName: 'HTML',
@@ -72,7 +72,7 @@ export const SkillData = [
   },
 ];
 
-export const ProductData = [
+export const productData = [
   {
     ProductImg: require('../images/Me-National-Exam-Preparation-App.png'),
     ProductName: 'Me-National-Exam-Preparation-App',
@@ -84,7 +84,7 @@ export const ProductData = [
   // },
 ];
 
-export const CareerData = [
+export const careerData = [
   {
     lineDate: '2016年',
     titleData: '高等学校卒業、4年制医療大学に入学',
