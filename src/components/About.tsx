@@ -2,7 +2,7 @@ import { careerData, navData, navPathData } from '../contents';
 import { about, headerLogo } from '../images';
 import '../styles/about.css';
 import Footer from './Footer';
-// import { animateScroll as scroll } from 'react-scroll';
+
 import {
   VerticalTimeline,
   VerticalTimelineElement,
