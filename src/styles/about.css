@@ -58,3 +58,21 @@ h1 {
   padding: 8px;
   vertical-align: middle;
 }
+
+@media (max-width: 480px) {
+  .AboutMain {
+    display: block;
+  }
+  .about-icon {
+    width: 300px;
+    margin: 0;
+  }
+  .scrollButton {
+    right: 2px;
+    bottom: 25px;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    z-index: 200;
+  }
+}
