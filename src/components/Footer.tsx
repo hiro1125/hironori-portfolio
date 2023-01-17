@@ -1,4 +1,5 @@
 import '../styles/footer.css';
+import '../styles/contact.css';
 import { githubIcon } from '../images';
 
 const Footer = () => {
@@ -6,7 +7,7 @@ const Footer = () => {
     window.open('https://github.com/hiro1125');
   };
   return (
-    <footer className='footerArea'>
+    <footer className='footerArea footerContact'>
       <p>© Hironori Sano</p>
       <img
         className='githubIcon'
