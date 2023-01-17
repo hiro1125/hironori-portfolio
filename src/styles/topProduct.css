@@ -15,7 +15,8 @@
 }
 
 .ProductName {
-  font-size: 20px;
+  font-size: 18px;
+  margin-bottom: 60px;
 }
 
 .ProductImg:hover {

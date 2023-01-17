@@ -74,14 +74,15 @@ export const skillData = [
 
 export const productData = [
   {
-    ProductImg: require('../images/Me-National-Exam-Preparation-App.png'),
-    ProductName: 'Me-National-Exam-Preparation-App',
+    productLink: 'https://hiro1125.github.io/react-todo-app/',
+    productImg: require('../images/react-todo-app.png'),
+    productName: 'react-todo-app',
   },
-
-  // {
-  //   ProductImg: require(),
-  //   ProductName: 'Me-National-Exam-Preparation-App',
-  // },
+  {
+    productLink: 'https://hiro1125.github.io/Me-National-Exam-Preparation-App/',
+    productImg: require('../images/Me-National-Exam-Preparation-App.png'),
+    productName: 'Me-National-Exam-Preparation-App',
+  },
 ];
 
 export const careerData = [

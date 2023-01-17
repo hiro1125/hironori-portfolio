@@ -3,9 +3,6 @@ import { navData, productData } from '../contents';
 import '../styles/topProduct.css';
 
 const TopProduct = () => {
-  const redirectToMeApp = () => {
-    window.open('https://hiro1125.github.io/Me-National-Exam-Preparation-App/');
-  };
   return (
     <>
       <div className='area topProductArea'>
@@ -14,13 +11,19 @@ const TopProduct = () => {
           {productData.map((item, key) => {
             return (
               <li className='topProductList' key={key}>
-                <img
+                <a
                   className='ProductImg'
-                  src={item.ProductImg}
-                  alt={item.ProductName}
-                  onClick={redirectToMeApp}
-                />
-                <p className='ProductName'>{item.ProductName}</p>
+                  href={item.productLink}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img
+                    className='ProductImg'
+                    src={item.productImg}
+                    alt={item.productName}
+                  />
+                </a>
+                <p className='ProductName'>{item.productName}</p>
               </li>
             );
           })}
