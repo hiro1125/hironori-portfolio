@@ -9,3 +9,4 @@ export { default as expoIcon } from './expo-icon.png';
 export { default as MeNationalExamPreparationApp } from './Me-National-Exam-Preparation-App.png';
 export { default as headerLogo } from './headerLogo.png';
 export { default as about } from './about-icon.png';
+export { default as reactTodoApp } from './react-todo-app.png';
