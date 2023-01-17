@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { navPathData } from './contents';
 import About from './components/About';
 import ScrollTop from './components/ScrollTop';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Routes>
           <Route path={navPathData.home} element={<Home />} />
           <Route path={navPathData.about} element={<About />} />
+          <Route path={navPathData.contact} element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </div>
