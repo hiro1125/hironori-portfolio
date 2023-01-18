@@ -28,9 +28,9 @@ const Contact = () => {
   return (
     <>
       <img className='headerLogo' src={headerLogo} alt='ロゴ画像' />
-      <div className='area'>
+      <div className='area mainContactArea '>
         <section>
-          <div className='mainContent'>
+          <div>
             <h2 className='pageTitle'>お問い合わせ</h2>
             <p className='pageText'>
               お問い合わせは、下記フォームより必須事項をご記入の上ご連絡ください。

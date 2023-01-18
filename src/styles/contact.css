@@ -81,3 +81,29 @@
     transform: translateY(-0.1em);
   }
 }
+
+@media (max-width: 480px) {
+  .mainContactArea {
+    margin-top: 0px;
+  }
+
+  .pageTitle {
+    font-size: 20px;
+  }
+
+  .pageText {
+    font-size: 10px;
+  }
+
+  .contactText {
+    width: 280px;
+    margin-left: 0;
+    font-size: 15px;
+  }
+
+  .labelForm,
+  .submitButton {
+    margin: 0;
+    font-size: 12px;
+  }
+}
