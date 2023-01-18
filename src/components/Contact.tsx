@@ -21,7 +21,7 @@ const Contact = () => {
           console.log(error.text);
         }
       );
-    window.alert('メールを送信しました。');
+    // window.alert('メールを送信しました。');
     e.target.reset();
   };
 
