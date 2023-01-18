@@ -4,6 +4,7 @@
 
 .topProductList {
   margin: 0;
+  display: inline-block;
 }
 
 .ProductImg {
