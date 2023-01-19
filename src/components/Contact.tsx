@@ -1,8 +1,11 @@
 import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
 import { headerLogo } from '../images';
 import '../styles/contact.css';
 import Footer from './Footer';
 const Contact = () => {
+  const form = useRef<HTMLFormElement | null>(null);
+
   const sendEmail = (e: React.ChangeEvent<HTMLFormElement>) => {
     e.preventDefault();
 
@@ -35,7 +38,7 @@ const Contact = () => {
             <p className='pageText'>
               お問い合わせは、下記フォームより必須事項をご記入の上ご連絡ください。
             </p>
-            <form className='formArea' onSubmit={sendEmail}>
+            <form ref={form} className='formArea' onSubmit={sendEmail}>
               <label htmlFor='mailTitleForm' className='labelForm'>
                 件名
               </label>
