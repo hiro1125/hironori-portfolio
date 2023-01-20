@@ -61,6 +61,17 @@ h1 {
   vertical-align: middle;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .AboutMain {
+    display: block;
+  }
+
+  .about-icon {
+    width: 60%;
+    margin: 0;
+  }
+}
+
 @media (max-width: 480px) {
   .AboutMain {
     display: block;

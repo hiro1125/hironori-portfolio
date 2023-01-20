@@ -83,6 +83,31 @@
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .mainContactArea {
+    margin-top: 0px;
+  }
+
+  .pageTitle {
+    font-size: 20px;
+  }
+
+  .pageText {
+    font-size: 20px;
+  }
+
+  .contactText {
+    width: 80%;
+    margin-left: 0;
+    font-size: 28px;
+  }
+
+  .labelForm,
+  .submitButton {
+    margin: 0;
+  }
+}
+
 @media (max-width: 480px) {
   .mainContactArea {
     margin-top: 0px;
