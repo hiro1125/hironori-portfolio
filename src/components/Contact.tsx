@@ -24,8 +24,9 @@ const Contact = () => {
           console.log(error.text);
         }
       );
-    // window.alert('メールを送信しました。');
     e.target.reset();
+    window.alert('メールを送信しました。');
+    window.close();
   };
 
   return (
