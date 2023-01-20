@@ -6,8 +6,8 @@ const Footer = () => {
     window.open('https://github.com/hiro1125');
   };
   return (
-    <footer className='footerArea'>
-      <p>© Hironori Sano</p>
+    <footer>
+      <p> &copy; 2023 Hironori Sano</p>
       <img
         className='githubIcon'
         src={githubIcon}
