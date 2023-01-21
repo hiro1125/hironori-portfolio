@@ -1,16 +1,14 @@
-const defaultPath = `/hironori-Portofolio`;
-
 export const navPathData = {
   /** ホーム画面 */
-  home: defaultPath,
+  home: '/',
   /** About画面 */
-  about: `${defaultPath}/About`,
+  about: `/About`,
   /** Skill画面 */
-  skill: `${defaultPath}/Skill`,
+  skill: `/Skill`,
   /** Product画面 */
-  product: `${defaultPath}/Product`,
+  product: `/Product`,
   /** Contact画面 */
-  contact: `${defaultPath}/Contact`,
+  contact: `/Contact`,
 };
 
 export const navData = [
