@@ -3,6 +3,10 @@
   margin-top: 50px;
 }
 
+.topMainArea {
+  display: flex;
+}
+
 .topMain-text {
   font-size: 65px;
   margin: 180px 0px;

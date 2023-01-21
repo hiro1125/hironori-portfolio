@@ -2,8 +2,12 @@ footer {
   width: 100%;
   padding: 40px 0;
   background-color: #d9efff;
-  font-size: 12px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  position: absolute;
+  bottom: 0;
 }
 
 .githubIcon {
@@ -11,10 +15,4 @@ footer {
   height: 20px;
   object-fit: contain;
   cursor: pointer;
-}
-
-.footerArea {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
 }

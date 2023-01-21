@@ -6,8 +6,8 @@ import { navData } from '../contents';
 const Header = () => {
   return (
     <>
-      <header>
-        <div className='menu'>
+      <header className='header'>
+        <div className='menuList'>
           <nav className='gNav'>
             <div className='navBox'>
               <Scroll

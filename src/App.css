@@ -1,4 +1,12 @@
+html {
+  height: 100%;
+}
+
 .App {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 100px;
+  box-sizing: border-box;
   text-align: center;
 }
 
@@ -26,10 +34,12 @@ body {
   font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN',
     'Hiragino Sans', Meiryo, sans-serif;
   line-height: 1.9;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .area {
-  display: flex;
   padding: 0 1.5rem;
   width: 100%;
   max-width: 1080px;
@@ -62,4 +72,12 @@ body {
 .nav-item:hover:before {
   visibility: visible;
   transform: scaleX(1);
+}
+
+#topAbout,
+#topSkill,
+#topProduct,
+#top {
+  text-align: center;
+  margin-bottom: 16px;
 }

@@ -7,15 +7,13 @@ const Footer = () => {
   };
   return (
     <footer>
-      <div className='footerArea'>
-        <p>© Hironori Sano</p>
-        <img
-          className='githubIcon'
-          src={githubIcon}
-          alt={'Github'}
-          onClick={pushIcon}
-        />
-      </div>
+      <p> &copy; 2023 Hironori Sano</p>
+      <img
+        className='githubIcon'
+        src={githubIcon}
+        alt={'Github'}
+        onClick={pushIcon}
+      />
     </footer>
   );
 };

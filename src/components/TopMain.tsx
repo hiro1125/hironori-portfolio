@@ -1,6 +1,5 @@
 import { topMain } from '../images';
 import '../styles/topMain.css';
-import '../styles/responsive.css';
 
 const TopMain = () => {
   return (
