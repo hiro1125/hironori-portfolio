@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.00c94148.css",
+    "main.js": "/static/js/main.b16b4e1e.js",
+    "static/media/about-icon.png": "/static/media/about-icon.358dc76688069fd249e4.png",
+    "static/media/topMain.png": "/static/media/topMain.fea20cef2d86fd40cb67.png",
+    "static/media/topAbout-icon.png": "/static/media/topAbout-icon.54fdbf5ec2f6c421cd19.png",
+    "static/media/Me-National-Exam-Preparation-App.png": "/static/media/Me-National-Exam-Preparation-App.efdc0e5a2627da87bac3.png",
+    "static/media/react-todo-app.png": "/static/media/react-todo-app.5b103e67fa8f89816578.png",
+    "static/media/react.png": "/static/media/react.56e533bca783a4d26f0e.png",
+    "index.html": "/index.html",
+    "main.00c94148.css.map": "/static/css/main.00c94148.css.map",
+    "main.b16b4e1e.js.map": "/static/js/main.b16b4e1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00c94148.css",
+    "static/js/main.b16b4e1e.js"
+  ]
+}
