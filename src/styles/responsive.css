@@ -27,6 +27,20 @@
     margin: auto;
   }
 
+  .navItem {
+    margin: 0;
+    margin-top: 25px;
+    padding: 2px 20px;
+    border-radius: 12px;
+    background-color: #111;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+
+  .ProductImg {
+    margin: 5px;
+  }
+
   footer {
     min-width: 100vw;
   }
@@ -38,6 +52,10 @@
 
 /* スマホ対応 */
 @media (max-width: 767px) {
+  li {
+    margin: 0;
+  }
+
   .header {
     padding-top: 10px;
   }
