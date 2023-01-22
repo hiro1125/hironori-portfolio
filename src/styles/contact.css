@@ -29,7 +29,12 @@
   font-size: 20px;
 }
 
+.requiredInformation {
+  color: red;
+}
+
 .submitButton {
+  margin-top: 30px;
   font-family: inherit;
   font-size: 20px;
   background: royalblue;
