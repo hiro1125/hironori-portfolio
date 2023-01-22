@@ -37,11 +37,13 @@ const Contact = () => {
           <div>
             <h2 className='pageTitle'>お問い合わせ</h2>
             <p className='pageText'>
-              お問い合わせは、下記フォームより必須事項をご記入の上ご連絡ください。
+              お問い合わせは、下記フォームよりご記入の上ご連絡ください。
+              <br />
+              <span className='requiredInformation'>*</span>は、必須事項です。
             </p>
             <form ref={form} className='formArea' onSubmit={sendEmail}>
               <label htmlFor='mailTitleForm' className='labelForm'>
-                件名
+                件名<span className='requiredInformation'>*</span>
               </label>
               <input
                 id='mailTitleForm'
@@ -52,7 +54,7 @@ const Contact = () => {
                 required
               />
               <label htmlFor='nameForm' className='labelForm'>
-                お名前
+                お名前<span className='requiredInformation'>*</span>
               </label>
               <input
                 id='nameForm'
@@ -63,7 +65,7 @@ const Contact = () => {
                 required
               />
               <label htmlFor='kanaForm' className='labelForm'>
-                フリガナ
+                フリガナ<span className='requiredInformation'>*</span>
               </label>
               <input
                 id='kanaForm'
@@ -74,7 +76,7 @@ const Contact = () => {
                 required
               />
               <label htmlFor='mailForm' className='labelForm'>
-                メールアドレス
+                メールアドレス<span className='requiredInformation'>*</span>
               </label>
               <input
                 id='mailForm'
@@ -85,7 +87,7 @@ const Contact = () => {
                 required
               />
               <label htmlFor='mailContentForm' className='labelForm'>
-                お問い合わせ内容
+                お問い合わせ内容<span className='requiredInformation'>*</span>
               </label>
               <textarea
                 id='mailContentForm'
