@@ -68,6 +68,10 @@ export const skillData = [
     skillIcon: require('../images/expo-icon.png'),
     skillName: 'expo',
   },
+  {
+    skillIcon: require('../images/typeScript-icon.png'),
+    skillName: 'TypeScript',
+  },
 ];
 
 export const productData = [

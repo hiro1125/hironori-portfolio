@@ -11,3 +11,4 @@ export { default as headerLogo } from './headerLogo.png';
 export { default as about } from './about-icon.png';
 export { default as reactTodoApp } from './react-todo-app.png';
 export { default as portfolio } from './hironori-portofolio.png';
+export { default as typeScript } from './typeScript-icon.png';
