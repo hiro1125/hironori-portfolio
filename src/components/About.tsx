@@ -1,16 +1,11 @@
-import { careerData, navData, navPathData } from '../contents';
+import { navData, navPathData } from '../contents';
 import { about, headerLogo } from '../images';
 import '../styles/about.css';
 import Footer from './Footer';
-
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
-import { FaAngleDoubleUp, FaHospital } from 'react-icons/fa';
+import { FaAngleDoubleUp, FaHome } from 'react-icons/fa';
 import TopContact from './TopContact';
 import { useEffect, useState } from 'react';
+import Career from './Career';
 
 const About = () => {
   const [topScrollButton, setTopScrollButton] = useState(false);
@@ -31,7 +26,12 @@ const About = () => {
 
   return (
     <>
-      <img className='headerLogo' src={headerLogo} alt='ロゴ画像' />
+      <img
+        className='headerLogo'
+        src={headerLogo}
+        alt='ロゴ画像'
+        onClick={ScrollTop}
+      />
       <div className='area'>
         <div className='title aboutTitle'>
           <section id='top'>{navData[1].listName}</section>
@@ -53,41 +53,14 @@ const About = () => {
           <FaAngleDoubleUp className='topButton' />
         </button>
       )}
-      <div className='area careerArea'>
-        <div className='title careerTitle'>
-          <h1>Career</h1>
-          <VerticalTimeline lineColor='#000'>
-            {careerData.map((item, key) => {
-              return (
-                <VerticalTimelineElement
-                  className='vertical-timeline-element--work'
-                  key={key}
-                  contentStyle={{
-                    background: 'rgb(33, 150, 243)',
-                    color: '#fff',
-                  }}
-                  contentArrowStyle={{
-                    borderRight: '7px solid  rgb(33, 150, 243)',
-                  }}
-                  date={item.lineDate}
-                  dateClassName={'timelineDate'}
-                  iconStyle={{
-                    background: 'rgb(33, 150, 243)',
-                    color: '#fff',
-                  }}
-                  icon={<FaHospital />}
-                >
-                  <h3>{item.titleData}</h3>
-                  <p>{item.textData}</p>
-                </VerticalTimelineElement>
-              );
-            })}
-          </VerticalTimeline>
-        </div>
-      </div>
+
+      <Career />
+
       <TopContact />
       <div className='backHome'>
-        <a href={navPathData.home}>← back home</a>
+        <a href={navPathData.home}>
+          <FaHome />
+        </a>
       </div>
       <Footer />
     </>
