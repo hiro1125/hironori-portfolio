@@ -6,9 +6,11 @@ import { FaAngleDoubleUp, FaHome } from 'react-icons/fa';
 import TopContact from './TopContact';
 import { useEffect, useState } from 'react';
 import Career from './Career';
+import { useNavigate } from 'react-router-dom';
 
 const About = () => {
   const [topScrollButton, setTopScrollButton] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
@@ -30,7 +32,7 @@ const About = () => {
         className='headerLogo'
         src={headerLogo}
         alt='ロゴ画像'
-        onClick={ScrollTop}
+        onClick={() => navigate(-1)}
       />
       <div className='area'>
         <div className='title aboutTitle'>
