@@ -13,7 +13,7 @@
 .topAbout-txt {
   max-width: 560px;
   padding: 35px;
-  background-color: #a7ddff;
+  background-color: rgb(215, 238, 255);
   font-size: 20px;
   text-align: left;
   white-space: pre-line;
@@ -23,15 +23,15 @@
   text-align: right;
 }
 
-.nav-item {
+.navItem {
   position: relative;
 }
 
-.nav-item:hover {
-  color: white;
+.navItem:hover {
+  color: black;
 }
 
-.nav-item:before {
+.navItem:before {
   visibility: hidden;
   position: absolute;
   transform: scaleX(0);
@@ -44,7 +44,7 @@
   transition: all 0.4s ease-in-out 0s;
 }
 
-.nav-item:hover:before {
+.navItem:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
