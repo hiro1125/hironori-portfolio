@@ -13,7 +13,7 @@
 }
 
 .backHome {
-  font-size: 30px;
+  font-size: 50px;
   margin: 40px 0px;
   line-height: 1.75rem;
 }
@@ -28,10 +28,6 @@
   width: 470px;
   height: auto;
   margin-right: 32px;
-}
-
-.timelineDate {
-  color: black;
 }
 
 .careerTitle {
