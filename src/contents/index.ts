@@ -51,7 +51,7 @@ export const skillData = [
 
   {
     skillIcon: require('../images/javascript.png'),
-    skillName: 'Javascript',
+    skillName: 'JavaScript',
   },
 
   {
@@ -74,12 +74,12 @@ export const productData = [
   {
     productLink: 'https://hiro1125.github.io/react-todo-app/',
     productImg: require('../images/react-todo-app.png'),
-    productName: 'react-todo-app',
+    productName: 'Todoアプリ',
   },
   {
     productLink: 'https://hiro1125.github.io/Me-National-Exam-Preparation-App/',
     productImg: require('../images/Me-National-Exam-Preparation-App.png'),
-    productName: 'Me-National-Exam-Preparation-App',
+    productName: '国家試験対策アプリ',
   },
 ];
 
