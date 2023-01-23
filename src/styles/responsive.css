@@ -37,6 +37,14 @@
     font-size: 1.2rem;
   }
 
+  .navItem:hover {
+    color: #fff;
+  }
+
+  .navItem:before {
+    margin: -5px -20px;
+  }
+
   .ProductImg {
     margin: 5px;
   }
@@ -109,7 +117,7 @@
   }
 
   .navItem:before {
-    margin: -5px -12px;
+    margin: -5px -20px;
   }
 
   .iconImg {
