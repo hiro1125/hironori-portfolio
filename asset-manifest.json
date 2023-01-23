@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.888b451d.css",
+    "main.css": "/static/css/main.eea41d2a.css",
     "main.js": "/static/js/main.ef15663d.js",
     "static/media/about-icon.png": "/static/media/about-icon.358dc76688069fd249e4.png",
     "static/media/topMain.png": "/static/media/topMain.fea20cef2d86fd40cb67.png",
@@ -10,11 +10,11 @@
     "static/media/react-todo-app.png": "/static/media/react-todo-app.5b103e67fa8f89816578.png",
     "static/media/react.png": "/static/media/react.56e533bca783a4d26f0e.png",
     "index.html": "/index.html",
-    "main.888b451d.css.map": "/static/css/main.888b451d.css.map",
+    "main.eea41d2a.css.map": "/static/css/main.eea41d2a.css.map",
     "main.ef15663d.js.map": "/static/js/main.ef15663d.js.map"
   },
   "entrypoints": [
-    "static/css/main.888b451d.css",
+    "static/css/main.eea41d2a.css",
     "static/js/main.ef15663d.js"
   ]
 }
