@@ -104,6 +104,14 @@
     font-size: 1.2rem;
   }
 
+  .navItem:hover {
+    color: #fff;
+  }
+
+  .navItem:before {
+    margin: -5px -12px;
+  }
+
   .iconImg {
     width: 160px;
     height: 160px;
