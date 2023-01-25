@@ -1,19 +1,19 @@
 import emailjs from '@emailjs/browser';
-import { useRef } from 'react';
+import { ComponentProps, useRef } from 'react';
 import { headerLogo } from '../images';
 import '../styles/contact.css';
 import Footer from './Footer';
 const Contact = () => {
   const form = useRef<HTMLFormElement | null>(null);
 
-  const sendEmail = (e: React.ChangeEvent<HTMLFormElement>) => {
-    e.preventDefault();
+  const sendEmail: ComponentProps<'form'>['onSubmit'] = (event) => {
+    event.preventDefault();
 
     emailjs
       .sendForm(
         `${process.env.REACT_APP_SERVICE_ID}`,
         `${process.env.REACT_APP_TEMPLATE_ID}`,
-        e.target,
+        event.currentTarget,
         `${process.env.REACT_APP_PUBLIC_KEY}`
       )
       .then(
@@ -24,7 +24,7 @@ const Contact = () => {
           console.log(error.text);
         }
       );
-    e.target.reset();
+    event.currentTarget.reset();
     window.alert('メールを送信しました。');
     window.close();
   };
