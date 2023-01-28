@@ -60,6 +60,11 @@ export const skillData = [
   },
 
   {
+    skillIcon: require('../images/typeScript-icon.png'),
+    skillName: 'TypeScript',
+  },
+
+  {
     skillIcon: require('../images/github-icon.png'),
     skillName: 'Github',
   },
@@ -67,10 +72,6 @@ export const skillData = [
   {
     skillIcon: require('../images/expo-icon.png'),
     skillName: 'expo',
-  },
-  {
-    skillIcon: require('../images/typeScript-icon.png'),
-    skillName: 'TypeScript',
   },
 ];
 
