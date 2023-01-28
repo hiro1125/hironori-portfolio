@@ -18,14 +18,13 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          alert('メールの送信に成功しました。');
         },
         (error) => {
-          console.log(error.text);
+          alert('メールの送信に失敗しました。');
         }
       );
     event.currentTarget.reset();
-    window.alert('メールを送信しました。');
     window.close();
   };
 
