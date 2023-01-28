@@ -14,10 +14,10 @@ https://hironori-portfolio.com
 - React.js v18.2.0
   - React hooks
   - React-Router v6.4.3
-  - react-icons ^4.7.1
-  - react-vertical-timeline-component ^3.3.3
+  - react-icons v4.7.1
+  - react-vertical-timeline-component v3.3.3
 - TypeScript v4.8.4
-- EmailJS ^3.10.0
+- EmailJS v3.10.0
 - 開発環境
   - MacBookAir(M1)
   - OS(Monterey / 12.2.1)
