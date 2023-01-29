@@ -20,13 +20,13 @@ const Contact = () => {
         (result) => {
           console.log('送信できました。', result.status, result.text);
           alert('メールの送信に成功しました。');
-          event.currentTarget.reset();
           window.close();
         },
         (error) => {
           console.log('送信できませんでした。', error.text);
-          alert('メールの送信に失敗しました。');
-          event.currentTarget.reset();
+          alert(
+            '送信を完了できませんでした。\n通信環境などをお確かめください。'
+          );
         }
       );
   };
