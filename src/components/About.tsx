@@ -44,7 +44,7 @@ const About = () => {
                 2021年から病院の仕事をしながらプログラミングの勉強を独学を始めました。
               </p>
               <p className='paragraph'>
-                現在は、Reactを中心に行い、UdemyやYouTubeを通して日々学んでいます。
+                現在は、Next.jsを中心に行い、UdemyやYouTubeを通して日々学んでいます。
               </p>
             </div>
           </div>
