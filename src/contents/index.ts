@@ -91,6 +91,17 @@ export const productData = [
     productImg: require('../images/hironori-portofolio.png'),
     productName: 'ポートフォリオ',
   },
+  {
+    productLink:
+      'https://play.google.com/store/apps/details?id=com.ponde.ClinicalEngineeringExamApp',
+    productImg: require('../images/feature.png'),
+    productName: '国家試験対策アプリ（iOS/Android）',
+  },
+  {
+    productLink: 'https://clinical-engineering-exam-app-hp.vercel.app',
+    productImg: require('../images/homepage-application.png'),
+    productName: 'ネイティブ版のホームページ',
+  },
 ];
 
 export const careerData = [
