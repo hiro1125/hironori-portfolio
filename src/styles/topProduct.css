@@ -2,8 +2,14 @@
   justify-content: center;
 }
 
+.topProductMain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .topProductList {
-  display: inline-block;
+  margin: 50px;
 }
 
 .ProductImg {
@@ -15,10 +21,16 @@
 }
 
 .ProductName {
-  font-size: 18px;
-  margin-bottom: 60px;
+  font-size: 16px;
 }
 
 .ProductImg:hover {
   opacity: 0.8;
+}
+
+.EmptyBox {
+  width: 340px;
+  height: 308px;
+  background-color: rgb(255, 255, 255);
+  margin: 50px;
 }
