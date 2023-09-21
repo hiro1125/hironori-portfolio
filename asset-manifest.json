@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.eea41d2a.css",
-    "main.js": "/static/js/main.34426b1f.js",
+    "main.css": "/static/css/main.c737d403.css",
+    "main.js": "/static/js/main.9f710f0f.js",
     "static/media/about-icon.png": "/static/media/about-icon.358dc76688069fd249e4.png",
     "static/media/topMain.png": "/static/media/topMain.fea20cef2d86fd40cb67.png",
     "static/media/topAbout-icon.png": "/static/media/topAbout-icon.54fdbf5ec2f6c421cd19.png",
     "static/media/hironori-portofolio.png": "/static/media/hironori-portofolio.8fe347d0f53874237098.png",
     "static/media/Me-National-Exam-Preparation-App.png": "/static/media/Me-National-Exam-Preparation-App.efdc0e5a2627da87bac3.png",
     "static/media/react-todo-app.png": "/static/media/react-todo-app.5b103e67fa8f89816578.png",
+    "static/media/feature.png": "/static/media/feature.ea834d19a4d489b750ed.png",
+    "static/media/homepage-application.png": "/static/media/homepage-application.f9dcb3ba7220a992ecb1.png",
     "static/media/react.png": "/static/media/react.56e533bca783a4d26f0e.png",
     "index.html": "/index.html",
-    "main.eea41d2a.css.map": "/static/css/main.eea41d2a.css.map",
-    "main.34426b1f.js.map": "/static/js/main.34426b1f.js.map"
+    "main.c737d403.css.map": "/static/css/main.c737d403.css.map",
+    "main.9f710f0f.js.map": "/static/js/main.9f710f0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.eea41d2a.css",
-    "static/js/main.34426b1f.js"
+    "static/css/main.c737d403.css",
+    "static/js/main.9f710f0f.js"
   ]
 }
