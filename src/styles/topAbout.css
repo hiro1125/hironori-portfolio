@@ -48,3 +48,7 @@
   visibility: visible;
   transform: scaleX(1);
 }
+
+.rightIcon {
+  font-size: 20px;
+}

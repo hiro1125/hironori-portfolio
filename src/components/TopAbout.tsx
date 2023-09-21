@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { navData, navPathData } from '../contents';
 import { topAbout } from '../images';
 import '../styles/topAbout.css';
+import { FaArrowRight } from 'react-icons/fa';
 
 const TopAbout = () => {
   return (
@@ -18,7 +19,7 @@ const TopAbout = () => {
               }
               <div className='topAbout-viewMore'>
                 <NavLink className='scroll navItem' to={navPathData.about}>
-                  view more
+                  view more <FaArrowRight style={{ verticalAlign: 'middle' }} />
                 </NavLink>
               </div>
             </div>
