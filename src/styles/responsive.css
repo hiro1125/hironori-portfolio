@@ -136,4 +136,7 @@
   footer {
     width: 100vw;
   }
+  .EmptyBox {
+    display: none;
+  }
 }
