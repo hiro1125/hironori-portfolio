@@ -63,6 +63,14 @@ export const skillData = [
     skillIcon: require('../images/typeScript-icon.png'),
     skillName: 'TypeScript',
   },
+  {
+    skillIcon: require('../images/nextjs.png'),
+    skillName: 'Next.js',
+  },
+  {
+    skillIcon: require('../images/tailwindcss.png'),
+    skillName: 'Tailwindcss',
+  },
 
   {
     skillIcon: require('../images/github-icon.png'),

@@ -16,5 +16,7 @@ export { default as cssIcon } from './css-3.png';
 export { default as javascriptIcon } from './javascript.png';
 export { default as reactIcon } from './react.png';
 export { default as typeScript } from './typeScript-icon.png';
+export { default as nextjsIcon } from './nextjs.png';
+export { default as tailwindcss } from './tailwindcss.png';
 export { default as githubIcon } from './github-icon.png';
 export { default as expoIcon } from './expo-icon.png';
