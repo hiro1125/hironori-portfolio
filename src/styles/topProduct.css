@@ -9,7 +9,8 @@
 }
 
 .topProductList {
-  margin: 50px;
+  margin: 20px;
+  flex: 0 1 calc(33.33% - 10px);
 }
 
 .ProductImg {
@@ -29,8 +30,7 @@
 }
 
 .EmptyBox {
-  width: 340px;
-  height: 308px;
-  background-color: rgb(255, 255, 255);
-  margin: 50px;
+  width: 349px;
+  height: 361px;
+  margin: 20px;
 }
